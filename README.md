@@ -1,2 +1,5 @@
 # Splunk-Log-Analysis-Authentication-Monitoring
 Analyze authentication logs to identify failed login attempts and potential brute-force activity.
+
+The screenshots in this repository document the complete workflow of generating, ingesting, and analyzing log data within Splunk. A simple Python script was developed to simulate system events and generate structured dummy log entries. These logs were written to a persistent file in Linux to ensure consistent data collection and repeatable observation. This approach allowed for controlled testing of log ingestion and analysis without relying on external production data.
+The repository also reflects the successful import of this log file into Splunk, confirmation of the source data (using placeholder names for privacy), and the creation of a visual dashboard to interpret activity patterns. A targeted search for the phrase “Warning” was performed to demonstrate basic query filtering and event identification. Together, these steps show the full lifecycle of log generation, ingestion, querying, and visualization in a controlled lab environment.
